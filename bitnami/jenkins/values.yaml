@@ -758,8 +758,8 @@ ingress:
   ## ref: https://cert-manager.io/docs/usage/ingress/#supported-annotations
   ##
   ## e.g:
-  ## annotations:
-  ##   kubernetes.io/ingress.class: nginx
+  annotations:
+  kubernetes.io/ingress.class: nginx
   ##   cert-manager.io/cluster-issuer: cluster-issuer-name
   ##
   annotations: {}
